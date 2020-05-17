@@ -18,13 +18,7 @@ int main()
     char response[3];
     find(cmd,name);
 
-/* printf("would you like to do another one? Yes/No ");
-    scanf("%s",response);
-    if(!strcmp(response, "yes"))
-    {
-        find(cmd,name);
-    }
-*/
+
 printf("\nYour WiFi information saved !\n");
 
 system("pause");
